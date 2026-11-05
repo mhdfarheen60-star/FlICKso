@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Three premium brand poster concepts in cyan, green and deep navy">
+  <defs>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00C8FF"/>
+      <stop offset="1" stop-color="#00E878"/>
+    </linearGradient>
+    <linearGradient id="posterA" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071B30"/>
+      <stop offset="1" stop-color="#020B18"/>
+    </linearGradient>
+    <linearGradient id="posterB" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#00C8FF"/>
+      <stop offset="0.52" stop-color="#00B889"/>
+      <stop offset="1" stop-color="#00E878"/>
+    </linearGradient>
+    <linearGradient id="posterC" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#003B42"/>
+      <stop offset="1" stop-color="#020B18"/>
+    </linearGradient>
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="200%">
+      <feDropShadow dx="0" dy="26" stdDeviation="26" flood-color="#000000" flood-opacity="0.65"/>
+    </filter>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="26" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.4" fill="#C7D3DF" opacity="0.16"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="800" fill="#020B18"/>
+  <ellipse cx="600" cy="420" rx="520" ry="320" fill="#003B42" opacity="0.35"/>
+  <ellipse cx="880" cy="210" rx="260" ry="200" fill="#00C8FF" opacity="0.12"/>
+  <rect width="1200" height="800" fill="url(#dots)" opacity="0.5"/>
+
+  <!-- Poster A -->
+  <g transform="translate(150 205) rotate(-7 160 220)" filter="url(#shadow)">
+    <rect width="320" height="440" rx="6" fill="url(#posterA)" stroke="#00C8FF" stroke-opacity="0.35"/>
+    <circle cx="256" cy="82" r="72" fill="url(#brand)" opacity="0.9"/>
+    <circle cx="256" cy="82" r="46" fill="#020B18"/>
+    <path d="M64 286h192" stroke="#C7D3DF" stroke-opacity="0.28" stroke-width="2"/>
+    <text x="64" y="226" font-family="Oswald, Arial Narrow, sans-serif" font-size="104" font-weight="700" fill="#ffffff" letter-spacing="2">F</text>
+    <text x="64" y="342" font-family="Inter, sans-serif" font-size="13" letter-spacing="6" fill="#00C8FF">BRAND FILM</text>
+    <rect x="64" y="362" width="130" height="5" rx="2.5" fill="url(#brand)"/>
+    <rect x="64" y="382" width="86" height="4" rx="2" fill="#C7D3DF" opacity="0.3"/>
+  </g>
+
+  <!-- Poster B -->
+  <g transform="translate(450 155) rotate(2 175 245)" filter="url(#shadow)">
+    <rect width="350" height="490" rx="6" fill="#020B18" stroke="#00E878" stroke-opacity="0.4"/>
+    <path d="M0 0h350v300L0 420Z" fill="url(#posterB)"/>
+    <text x="34" y="118" font-family="Oswald, Arial Narrow, sans-serif" font-size="128" font-weight="700" fill="#020B18" letter-spacing="-2">01</text>
+    <text x="36" y="162" font-family="Inter, sans-serif" font-size="13" font-weight="600" letter-spacing="7" fill="#020B18">CREATIVE</text>
+    <circle cx="270" cy="388" r="58" fill="none" stroke="#00E878" stroke-width="2"/>
+    <circle cx="270" cy="388" r="40" fill="none" stroke="#00C8FF" stroke-width="1" opacity="0.7"/>
+    <path d="M236 388h68M270 354v68" stroke="#00E878" stroke-width="2"/>
+    <text x="34" y="410" font-family="Oswald, Arial Narrow, sans-serif" font-size="42" font-weight="600" fill="#ffffff">STORY</text>
+    <text x="34" y="448" font-family="Inter, sans-serif" font-size="12" letter-spacing="4" fill="#C7D3DF" opacity="0.7">FLICKSO PRODUCTION</text>
+  </g>
+
+  <!-- Poster C -->
+  <g transform="translate(810 225) rotate(8 145 200)" filter="url(#shadow)">
+    <rect width="300" height="410" rx="6" fill="url(#posterC)" stroke="#00C8FF" stroke-opacity="0.3"/>
+    <g opacity="0.5" stroke="#00C8FF" stroke-width="0.6">
+      <path d="M0 68h300M0 136h300M0 204h300M0 272h300M0 340h300"/>
+      <path d="M50 0v410M100 0v410M150 0v410M200 0v410M250 0v410"/>
+    </g>
+    <circle cx="150" cy="165" r="86" fill="none" stroke="url(#brand)" stroke-width="3"/>
+    <circle cx="150" cy="165" r="54" fill="#020B18" stroke="#00E878" stroke-opacity="0.7"/>
+    <circle cx="150" cy="165" r="17" fill="url(#brand)" filter="url(#glow)"/>
+    <rect x="48" y="300" width="204" height="2" fill="#00C8FF" opacity="0.5"/>
+    <text x="48" y="332" font-family="Inter, sans-serif" font-size="11" letter-spacing="5" fill="#C7D3DF">VISUAL IDENTITY</text>
+    <text x="48" y="364" font-family="Oswald, Arial Narrow, sans-serif" font-size="26" font-weight="500" fill="#ffffff">MAKE IT ICONIC</text>
+  </g>
+</svg>

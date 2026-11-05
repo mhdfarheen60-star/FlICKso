@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Three social media carousel slides displayed on phone mockups">
+  <defs>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00C8FF"/>
+      <stop offset="1" stop-color="#00E878"/>
+    </linearGradient>
+    <linearGradient id="slideA" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071B30"/>
+      <stop offset="1" stop-color="#020B18"/>
+    </linearGradient>
+    <linearGradient id="slideB" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#00C8FF"/>
+      <stop offset="0.55" stop-color="#00B889"/>
+      <stop offset="1" stop-color="#00E878"/>
+    </linearGradient>
+    <linearGradient id="slideC" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#003B42"/>
+      <stop offset="1" stop-color="#020B18"/>
+    </linearGradient>
+    <filter id="shadow" x="-50%" y="-30%" width="200%" height="180%">
+      <feDropShadow dx="0" dy="24" stdDeviation="24" flood-color="#000000" flood-opacity="0.7"/>
+    </filter>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="18" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.3" fill="#C7D3DF" opacity="0.14"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="800" fill="#020B18"/>
+  <ellipse cx="620" cy="410" rx="540" ry="320" fill="#003B42" opacity="0.38"/>
+  <ellipse cx="380" cy="210" rx="240" ry="190" fill="#00C8FF" opacity="0.12"/>
+  <rect width="1200" height="800" fill="url(#dots)" opacity="0.5"/>
+
+  <!-- Phone 1 -->
+  <g transform="translate(250 150) rotate(-4 130 250)" filter="url(#shadow)">
+    <rect width="260" height="520" rx="34" fill="#0A1A2C" stroke="#00C8FF" stroke-opacity="0.55" stroke-width="2"/>
+    <rect x="10" y="10" width="240" height="500" rx="26" fill="url(#slideA)"/>
+    <rect x="98" y="20" width="64" height="8" rx="4" fill="#C7D3DF" opacity="0.18"/>
+    <circle cx="194" cy="96" r="42" fill="url(#brand)" filter="url(#glow)"/>
+    <circle cx="194" cy="96" r="26" fill="#020B18"/>
+    <text x="28" y="200" font-family="Oswald, Arial Narrow, sans-serif" font-size="46" font-weight="700" fill="#ffffff" letter-spacing="1">BOLD</text>
+    <text x="28" y="244" font-family="Oswald, Arial Narrow, sans-serif" font-size="46" font-weight="700" fill="url(#brand)" letter-spacing="1">IDEAS</text>
+    <rect x="28" y="272" width="104" height="3" fill="#00C8FF"/>
+    <text x="28" y="306" font-family="Inter, sans-serif" font-size="10" letter-spacing="3" fill="#C7D3DF" opacity="0.75">SOCIAL CAMPAIGN</text>
+    <rect x="28" y="438" width="204" height="34" rx="17" fill="none" stroke="#00E878" stroke-opacity="0.5"/>
+    <text x="88" y="460" font-family="Inter, sans-serif" font-size="10" letter-spacing="3" fill="#00E878">SWIPE</text>
+    <g fill="#C7D3DF" opacity="0.4">
+      <circle cx="114" cy="492" r="3"/><circle cx="130" cy="492" r="3"/><circle cx="146" cy="492" r="3"/>
+    </g>
+  </g>
+
+  <!-- Phone 2 (center, elevated) -->
+  <g transform="translate(470 105)" filter="url(#shadow)">
+    <rect width="260" height="560" rx="34" fill="#0A1A2C" stroke="#00E878" stroke-opacity="0.6" stroke-width="2"/>
+    <rect x="10" y="10" width="240" height="540" rx="26" fill="url(#slideB)"/>
+    <rect x="98" y="20" width="64" height="8" rx="4" fill="#020B18" opacity="0.28"/>
+    <text x="28" y="142" font-family="Oswald, Arial Narrow, sans-serif" font-size="104" font-weight="700" fill="#020B18" letter-spacing="-3">02</text>
+    <text x="30" y="186" font-family="Inter, sans-serif" font-size="11" font-weight="600" letter-spacing="6" fill="#020B18">THE STORY</text>
+    <g transform="translate(30 228)">
+      <circle cx="46" cy="46" r="46" fill="#020B18" opacity="0.14"/>
+      <path d="M30 62V30h34v9H41v6h18v9H41v8h-11Z" fill="#020B18"/>
+    </g>
+    <text x="28" y="372" font-family="Oswald, Arial Narrow, sans-serif" font-size="38" font-weight="600" fill="#020B18">CREATIVE</text>
+    <text x="28" y="408" font-family="Oswald, Arial Narrow, sans-serif" font-size="38" font-weight="600" fill="#020B18">PRODUCTION</text>
+    <rect x="28" y="430" width="204" height="2" fill="#020B18" opacity="0.3"/>
+    <text x="28" y="458" font-family="Inter, sans-serif" font-size="10" letter-spacing="2.5" fill="#020B18" opacity="0.75">FLICKSO PRODUCTION</text>
+    <rect x="28" y="500" width="204" height="1.5" fill="#020B18" opacity="0.3"/>
+    <g fill="#020B18" opacity="0.45">
+      <circle cx="114" cy="518" r="3"/><circle cx="130" cy="518" r="3"/><circle cx="146" cy="518" r="3"/>
+    </g>
+  </g>
+
+  <!-- Phone 3 -->
+  <g transform="translate(700 165) rotate(4 130 240)" filter="url(#shadow)">
+    <rect width="260" height="510" rx="34" fill="#0A1A2C" stroke="#00C8FF" stroke-opacity="0.45" stroke-width="2"/>
+    <rect x="10" y="10" width="240" height="490" rx="26" fill="url(#slideC)"/>
+    <rect x="98" y="20" width="64" height="8" rx="4" fill="#C7D3DF" opacity="0.18"/>
+    <g opacity="0.55" stroke="#00C8FF" stroke-width="0.5">
+      <path d="M10 96h240M10 182h240M10 268h240M10 354h240M10 440h240"/>
+      <path d="M70 10v490M130 10v490M190 10v490"/>
+    </g>
+    <circle cx="130" cy="182" r="66" fill="none" stroke="url(#brand)" stroke-width="2.5"/>
+    <circle cx="130" cy="182" r="40" fill="#020B18" stroke="#00E878" stroke-opacity="0.65"/>
+    <circle cx="130" cy="182" r="12" fill="url(#brand)" filter="url(#glow)"/>
+    <text x="28" y="330" font-family="Oswald, Arial Narrow, sans-serif" font-size="40" font-weight="600" fill="#ffffff">YOUR</text>
+    <text x="28" y="368" font-family="Oswald, Arial Narrow, sans-serif" font-size="40" font-weight="600" fill="url(#brand)">BRAND</text>
+    <text x="28" y="406" font-family="Inter, sans-serif" font-size="9" letter-spacing="3" fill="#C7D3DF" opacity="0.72">DESIGNED TO BE REMEMBERED</text>
+    <rect x="28" y="456" width="204" height="32" rx="16" fill="url(#brand)" opacity="0.9"/>
+    <text x="90" y="477" font-family="Inter, sans-serif" font-size="10" font-weight="600" letter-spacing="2" fill="#020B18">FOLLOW</text>
+  </g>
+</svg>

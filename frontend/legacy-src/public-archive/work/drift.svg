@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000" role="img" aria-label="Drift Coffee social content cover">
+  <defs>
+    <linearGradient id="drift-bg" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0" stop-color="#0E2B2C"/>
+      <stop offset="1" stop-color="#071617"/>
+    </linearGradient>
+    <linearGradient id="drift-wave" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FF4D00" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#F4F1E8" stop-opacity="0.15"/>
+    </linearGradient>
+    <radialGradient id="drift-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#E8B27A" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#E8B27A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="800" height="1000" fill="url(#drift-bg)"/>
+  <circle cx="470" cy="330" r="330" fill="url(#drift-glow)"/>
+  <circle cx="470" cy="330" r="130" fill="#E8B27A" fill-opacity="0.85"/>
+  <circle cx="470" cy="330" r="130" fill="none" stroke="#F4F1E8" stroke-opacity="0.3"/>
+
+  <g fill="none" stroke="url(#drift-wave)" stroke-width="2">
+    <path d="M-20 660C120 600 220 740 360 680S600 560 820 640"/>
+    <path d="M-20 720C120 660 220 800 360 740S600 620 820 700"/>
+    <path d="M-20 780C120 720 220 860 360 800S600 680 820 760"/>
+  </g>
+
+  <text x="60" y="90" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#F4F1E8" fill-opacity="0.55" letter-spacing="6">SOCIAL — 2025</text>
+  <text x="740" y="90" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#FF4D00" letter-spacing="4" text-anchor="end">04</text>
+
+  <text x="54" y="850" font-family="Arial Black, Arial, Helvetica, sans-serif" font-size="164" font-weight="900" fill="#F4F1E8" letter-spacing="-8">DRIFT</text>
+  <text x="62" y="906" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#FF4D00" letter-spacing="8">COFFEE ROASTERS</text>
+  <text x="62" y="954" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#F4F1E8" fill-opacity="0.4" letter-spacing="3">SLOW MORNINGS, FAST CULTURE</text>
+</svg>

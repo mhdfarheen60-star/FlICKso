@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000" role="img" aria-label="Nova Athletics brand film cover">
+  <defs>
+    <linearGradient id="nova-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#17171A"/>
+      <stop offset="1" stop-color="#070708"/>
+    </linearGradient>
+    <linearGradient id="nova-sun" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#FF4D00"/>
+      <stop offset="0.55" stop-color="#FF8A3D"/>
+      <stop offset="1" stop-color="#FFE0B8"/>
+    </linearGradient>
+    <pattern id="nova-grid" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M80 0H0V80" fill="none" stroke="#F4F1E8" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="800" height="1000" fill="url(#nova-bg)"/>
+  <rect width="800" height="1000" fill="url(#nova-grid)"/>
+
+  <circle cx="610" cy="310" r="230" fill="url(#nova-sun)" opacity="0.95"/>
+  <circle cx="610" cy="310" r="300" fill="none" stroke="#F4F1E8" stroke-opacity="0.18" stroke-width="1"/>
+
+  <path d="M0 820 L800 520 L800 650 L0 950 Z" fill="#F4F1E8" fill-opacity="0.05"/>
+  <path d="M0 880 L800 580" stroke="#FF4D00" stroke-width="2" stroke-opacity="0.8"/>
+
+  <g stroke="#F4F1E8" stroke-opacity="0.35" stroke-width="2">
+    <line x1="60" y1="120" x2="60" y2="200"/>
+    <line x1="60" y1="120" x2="140" y2="120"/>
+  </g>
+
+  <text x="60" y="90" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#F4F1E8" fill-opacity="0.55" letter-spacing="6">BRAND FILM — 2025</text>
+  <text x="700" y="90" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#FF4D00" letter-spacing="4" text-anchor="end">01</text>
+
+  <text x="54" y="828" font-family="Arial Black, Arial, Helvetica, sans-serif" font-size="176" font-weight="900" fill="#F4F1E8" letter-spacing="-9">NOVA</text>
+  <text x="60" y="884" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#FF4D00" letter-spacing="8">ATHLETICS — SS25</text>
+
+  <text x="60" y="948" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#F4F1E8" fill-opacity="0.4" letter-spacing="3">BUILT FOR THE LAST REP</text>
+</svg>
